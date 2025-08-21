@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5FE1D2782E56DCD300BEC424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE1D25B2E56DCD200BEC424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE1D2622E56DCD200BEC424;
+			remoteInfo = ELAForKids;
+		};
+		5FE1D2822E56DCD300BEC424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE1D25B2E56DCD200BEC424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE1D2622E56DCD200BEC424;
+			remoteInfo = ELAForKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FE1D2632E56DCD200BEC424 /* ELAForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELAForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE1D2772E56DCD300BEC424 /* ELAForKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELAForKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE1D2812E56DCD300BEC424 /* ELAForKidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELAForKidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5FE1D2892E56DCD300BEC424 /* Exceptions for "ELAForKids" folder in "ELAForKids" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5FE1D2622E56DCD200BEC424 /* ELAForKids */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5FE1D2652E56DCD200BEC424 /* ELAForKids */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5FE1D2892E56DCD300BEC424 /* Exceptions for "ELAForKids" folder in "ELAForKids" target */,
+			);
+			path = ELAForKids;
+			sourceTree = "<group>";
+		};
+		5FE1D27A2E56DCD300BEC424 /* ELAForKidsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ELAForKidsTests;
+			sourceTree = "<group>";
+		};
+		5FE1D2842E56DCD300BEC424 /* ELAForKidsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ELAForKidsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE1D2602E56DCD200BEC424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D2742E56DCD300BEC424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D27E2E56DCD300BEC424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE1D25A2E56DCD200BEC424 = {
+			isa = PBXGroup;
+			children = (
+				5FE1D2652E56DCD200BEC424 /* ELAForKids */,
+				5FE1D27A2E56DCD300BEC424 /* ELAForKidsTests */,
+				5FE1D2842E56DCD300BEC424 /* ELAForKidsUITests */,
+				5FE1D2642E56DCD200BEC424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE1D2642E56DCD200BEC424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE1D2632E56DCD200BEC424 /* ELAForKids.app */,
+				5FE1D2772E56DCD300BEC424 /* ELAForKidsTests.xctest */,
+				5FE1D2812E56DCD300BEC424 /* ELAForKidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE1D2622E56DCD200BEC424 /* ELAForKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE1D28A2E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKids" */;
+			buildPhases = (
+				5FE1D25F2E56DCD200BEC424 /* Sources */,
+				5FE1D2602E56DCD200BEC424 /* Frameworks */,
+				5FE1D2612E56DCD200BEC424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5FE1D2652E56DCD200BEC424 /* ELAForKids */,
+			);
+			name = ELAForKids;
+			packageProductDependencies = (
+			);
+			productName = ELAForKids;
+			productReference = 5FE1D2632E56DCD200BEC424 /* ELAForKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE1D2762E56DCD300BEC424 /* ELAForKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE1D28F2E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKidsTests" */;
+			buildPhases = (
+				5FE1D2732E56DCD300BEC424 /* Sources */,
+				5FE1D2742E56DCD300BEC424 /* Frameworks */,
+				5FE1D2752E56DCD300BEC424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE1D2792E56DCD300BEC424 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FE1D27A2E56DCD300BEC424 /* ELAForKidsTests */,
+			);
+			name = ELAForKidsTests;
+			packageProductDependencies = (
+			);
+			productName = ELAForKidsTests;
+			productReference = 5FE1D2772E56DCD300BEC424 /* ELAForKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE1D2802E56DCD300BEC424 /* ELAForKidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE1D2922E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKidsUITests" */;
+			buildPhases = (
+				5FE1D27D2E56DCD300BEC424 /* Sources */,
+				5FE1D27E2E56DCD300BEC424 /* Frameworks */,
+				5FE1D27F2E56DCD300BEC424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE1D2832E56DCD300BEC424 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FE1D2842E56DCD300BEC424 /* ELAForKidsUITests */,
+			);
+			name = ELAForKidsUITests;
+			packageProductDependencies = (
+			);
+			productName = ELAForKidsUITests;
+			productReference = 5FE1D2812E56DCD300BEC424 /* ELAForKidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE1D25B2E56DCD200BEC424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5FE1D2622E56DCD200BEC424 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5FE1D2762E56DCD300BEC424 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5FE1D2622E56DCD200BEC424;
+					};
+					5FE1D2802E56DCD300BEC424 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5FE1D2622E56DCD200BEC424;
+					};
+				};
+			};
+			buildConfigurationList = 5FE1D25E2E56DCD200BEC424 /* Build configuration list for PBXProject "ELAForKids" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE1D25A2E56DCD200BEC424;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5FE1D2642E56DCD200BEC424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE1D2622E56DCD200BEC424 /* ELAForKids */,
+				5FE1D2762E56DCD300BEC424 /* ELAForKidsTests */,
+				5FE1D2802E56DCD300BEC424 /* ELAForKidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE1D2612E56DCD200BEC424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D2752E56DCD300BEC424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D27F2E56DCD300BEC424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE1D25F2E56DCD200BEC424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D2732E56DCD300BEC424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE1D27D2E56DCD300BEC424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE1D2792E56DCD300BEC424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE1D2622E56DCD200BEC424 /* ELAForKids */;
+			targetProxy = 5FE1D2782E56DCD300BEC424 /* PBXContainerItemProxy */;
+		};
+		5FE1D2832E56DCD300BEC424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE1D2622E56DCD200BEC424 /* ELAForKids */;
+			targetProxy = 5FE1D2822E56DCD300BEC424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FE1D28B2E56DCD300BEC424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ELAForKids/ELAForKids.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ELAForKids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE1D28C2E56DCD300BEC424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ELAForKids/ELAForKids.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ELAForKids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FE1D28D2E56DCD300BEC424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE1D28E2E56DCD300BEC424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE1D2902E56DCD300BEC424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELAForKids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ELAForKids";
+			};
+			name = Debug;
+		};
+		5FE1D2912E56DCD300BEC424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELAForKids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ELAForKids";
+			};
+			name = Release;
+		};
+		5FE1D2932E56DCD300BEC424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ELAForKids;
+			};
+			name = Debug;
+		};
+		5FE1D2942E56DCD300BEC424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linhdk.ELAForKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ELAForKids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE1D25E2E56DCD200BEC424 /* Build configuration list for PBXProject "ELAForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE1D28D2E56DCD300BEC424 /* Debug */,
+				5FE1D28E2E56DCD300BEC424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE1D28A2E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE1D28B2E56DCD300BEC424 /* Debug */,
+				5FE1D28C2E56DCD300BEC424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE1D28F2E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE1D2902E56DCD300BEC424 /* Debug */,
+				5FE1D2912E56DCD300BEC424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE1D2922E56DCD300BEC424 /* Build configuration list for PBXNativeTarget "ELAForKidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE1D2932E56DCD300BEC424 /* Debug */,
+				5FE1D2942E56DCD300BEC424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE1D25B2E56DCD200BEC424 /* Project object */;
+}
