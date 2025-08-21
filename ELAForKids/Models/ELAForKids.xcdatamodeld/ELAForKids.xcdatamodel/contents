@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Achievement" representedClassName="Achievement" syncable="YES" codeGenerationType="class">
+        <attribute name="achievedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="category" optional="NO" attributeType="String"/>
+        <attribute name="descriptionText" optional="YES" attributeType="String"/>
+        <attribute name="difficulty" optional="NO" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="points" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="progress" optional="NO" attributeType="Float" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="requirementTarget" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="requirementType" optional="NO" attributeType="String"/>
+        <attribute name="title" optional="NO" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="achievements" inverseEntity="UserProfile"/>
+    </entity>
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="difficulty" optional="NO" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="tags" optional="YES" attributeType="String"/>
+        <attribute name="targetText" optional="NO" attributeType="String"/>
+        <attribute name="title" optional="NO" attributeType="String"/>
+        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="UserSession" inverseName="exercise" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="TextMistake" representedClassName="TextMistake" syncable="YES" codeGenerationType="class">
+        <attribute name="actualWord" optional="YES" attributeType="String"/>
+        <attribute name="expectedWord" optional="NO" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="mistakeType" optional="NO" attributeType="String"/>
+        <attribute name="position" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="severity" optional="NO" attributeType="String"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserSession" inverseName="mistakes" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="averageAccuracy" optional="NO" attributeType="Float" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="bestStreak" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="completedExercises" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currentStreak" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="grade" optional="NO" attributeType="Integer 16" defaultValue="1" usesScalarValueType="YES"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastSessionDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="NO" attributeType="String"/>
+        <attribute name="parentEmail" optional="YES" attributeType="String"/>
+        <attribute name="totalScore" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="totalTimeSpent" optional="NO" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <relationship name="achievements" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Achievement" inverseName="user" inverseEntity="Achievement"/>
+        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="UserSession" inverseName="user" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="UserSession" representedClassName="UserSession" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracy" optional="NO" attributeType="Float" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="attempts" optional="NO" attributeType="Integer 32" defaultValue="1" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="completedAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="difficulty" optional="NO" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="inputMethod" optional="NO" attributeType="String"/>
+        <attribute name="inputText" optional="NO" attributeType="String"/>
+        <attribute name="mistakesData" optional="YES" attributeType="Binary"/>
+        <attribute name="score" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="spokenText" optional="YES" attributeType="String"/>
+        <attribute name="timeSpent" optional="NO" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="sessions" inverseEntity="Exercise"/>
+        <relationship name="mistakes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TextMistake" inverseName="session" inverseEntity="TextMistake"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserProfile" inverseName="sessions" inverseEntity="UserProfile"/>
+    </entity>
+    <entity name="DailyProgressEntity" representedClassName="DailyProgressEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="averageAccuracy" optional="NO" attributeType="Float" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalsMet" optional="YES" attributeType="String"/>
+        <attribute name="isGoalAchieved" optional="NO" attributeType="Boolean" defaultValue="NO" usesScalarValueType="YES"/>
+        <attribute name="scoreEarned" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="sessionsCompleted" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="timeSpent" optional="NO" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String"/>
+    </entity>
+    <entity name="LearningGoalsEntity" representedClassName="LearningGoalsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracyGoal" optional="NO" attributeType="Float" defaultValue="0.8" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="customGoalsData" optional="YES" attributeType="Binary"/>
+        <attribute name="dailySessionGoal" optional="NO" attributeType="Integer 32" defaultValue="3" usesScalarValueType="YES"/>
+        <attribute name="dailyTimeGoal" optional="NO" attributeType="Double" defaultValue="900" usesScalarValueType="YES"/>
+        <attribute name="isActive" optional="NO" attributeType="Boolean" defaultValue="YES" usesScalarValueType="YES"/>
+        <attribute name="streakGoal" optional="NO" attributeType="Integer 32" defaultValue="7" usesScalarValueType="YES"/>
+        <attribute name="updatedAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="userId" optional="NO" attributeType="String"/>
+        <attribute name="weeklySessionGoal" optional="NO" attributeType="Integer 32" defaultValue="20" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SessionResultEntity" representedClassName="SessionResultEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracy" optional="NO" attributeType="Float" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="attempts" optional="NO" attributeType="Integer 32" defaultValue="1" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="completedAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="difficulty" optional="NO" attributeType="String"/>
+        <attribute name="exerciseId" optional="NO" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="inputMethod" optional="NO" attributeType="String"/>
+        <attribute name="mistakesData" optional="YES" attributeType="Binary"/>
+        <attribute name="originalText" optional="NO" attributeType="String"/>
+        <attribute name="score" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="spokenText" optional="NO" attributeType="String"/>
+        <attribute name="timeSpent" optional="NO" attributeType="Double" defaultValue="0.0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String"/>
+    </entity>
+    <entity name="UserScoreEntity" representedClassName="UserScoreEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="achievements" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
+        <attribute name="experience" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="lastUpdated" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="level" optional="NO" attributeType="Integer 32" defaultValue="1" usesScalarValueType="YES"/>
+        <attribute name="streak" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="totalScore" optional="NO" attributeType="Integer 32" defaultValue="0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="NO" attributeType="String"/>
+        <attribute name="userName" optional="NO" attributeType="String"/>
+    </entity>
+</model>

@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  ELAForKids
+
+  Created by AI Assistant.
+  
+*/
+
+// MARK: - App General
+"app.name" = "Học Tiếng Việt";
+"app.subtitle" = "Cùng học viết và đọc nhé!";
+
+// MARK: - Main Menu
+"menu.start.title" = "Bắt đầu học";
+"menu.start.subtitle" = "Viết và đọc văn bản";
+"menu.progress.title" = "Xem tiến độ";
+"menu.progress.subtitle" = "Điểm số và thành tích";
+"menu.settings.title" = "Cài đặt";
+"menu.settings.subtitle" = "Tùy chỉnh ứng dụng";
+
+// MARK: - Text Input
+"textinput.title" = "Viết văn bản";
+"textinput.placeholder" = "Hãy viết một đoạn văn bản...";
+"textinput.keyboard.hint" = "Sử dụng bàn phím để gõ";
+"textinput.pencil.hint" = "Sử dụng Apple Pencil để viết";
+"textinput.complete" = "Hoàn thành";
+"textinput.clear" = "Xóa hết";
+
+// MARK: - Reading Practice
+"reading.title" = "Đọc văn bản";
+"reading.instruction" = "Hãy đọc to đoạn văn bản bên dưới:";
+"reading.start" = "Bắt đầu đọc";
+"reading.stop" = "Dừng đọc";
+"reading.recording" = "Đang ghi âm...";
+
+// MARK: - Results
+"results.title" = "Kết quả";
+"results.score" = "Điểm số: %d";
+"results.accuracy" = "Độ chính xác: %.1f%%";
+"results.excellent" = "Tuyệt vời! Bé đọc rất hay!";
+"results.good" = "Tốt lắm! Hãy tiếp tục cố gắng!";
+"results.needimprovement" = "Bé cần luyện tập thêm nhé!";
+"results.tryagain" = "Thử lại";
+"results.continue" = "Tiếp tục";
+
+// MARK: - Errors
+"error.microphone.title" = "Cần quyền microphone";
+"error.microphone.message" = "Ứng dụng cần quyền sử dụng microphone để ghi âm giọng đọc của bé.";
+"error.speech.title" = "Không nghe rõ";
+"error.speech.message" = "Không nghe rõ giọng đọc. Hãy nói to hơn nhé!";
+"error.network.title" = "Mất kết nối";
+"error.network.message" = "Mất kết nối mạng. Một số tính năng có thể không hoạt động.";
+"error.generic.title" = "Có lỗi xảy ra";
+"error.generic.message" = "Có lỗi xảy ra. Hãy thử lại nhé!";
+"error.retry" = "Thử lại";
+"error.settings" = "Mở cài đặt";
+
+// MARK: - Achievements
+"achievement.first.read" = "Lần đầu đọc";
+"achievement.perfect.score" = "Điểm số hoàn hảo";
+"achievement.daily.streak" = "Học liên tục";
+"achievement.unlocked" = "Mở khóa thành tích mới!";
+
+// MARK: - Accessibility
+"accessibility.textinput.label" = "Khu vực nhập văn bản";
+"accessibility.textinput.hint" = "Nhập văn bản bằng bàn phím hoặc Apple Pencil";
+"accessibility.record.button.label" = "Nút ghi âm";
+"accessibility.record.button.hint" = "Nhấn để bắt đầu ghi âm giọng đọc";
+"accessibility.score.label" = "Điểm số của bạn";
+"accessibility.mistake.label" = "Từ đọc sai";
